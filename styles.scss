@@ -62,7 +62,7 @@ header {
   height: 540px;
   width: 100%;
   position: relative;
-  background-image: url('/images/mobile/image-header.jpg');
+  background-image: url('./images/mobile/image-header.jpg');
   background-size: cover;
   background-position: center;
   nav {
@@ -356,7 +356,7 @@ footer {
 // small tablet styles 
 @media screen and (min-width: 620px) {
   header {
-    background-image: url('/images/desktop/image-header.jpg');
+    background-image: url('./images/desktop/image-header.jpg');
   }
   .img-egg {
     background-image: url('./images/desktop/image-transform.jpg');
